@@ -1,8 +1,6 @@
 public class Solution {
     public int RomanToInt(string s) {
         Dictionary<string, int> romanDict = new Dictionary<string, int>();
-        Dictionary<string, int> romanSpecDict = new Dictionary<string, int>();
-
         romanDict.Add("I", 1);
         romanDict.Add("V", 5);
         romanDict.Add("X", 10);
