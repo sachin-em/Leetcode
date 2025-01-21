@@ -1,3 +1,7 @@
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+// n is the number of digits in x
+
 public class Solution {
     public bool IsPalindrome(int x) {
         int og = x;

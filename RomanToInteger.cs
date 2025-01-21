@@ -1,3 +1,7 @@
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+// n is the length of s
+
 public class Solution {
     public int RomanToInt(string s) {
         Dictionary<string, int> romanDict = new Dictionary<string, int>();

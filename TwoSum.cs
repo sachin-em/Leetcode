@@ -1,3 +1,7 @@
+// Time Complexity : O(n)
+// Space Complexity : O(n)
+// n is the length of nums
+
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         Dictionary<int, int> hashMap = new Dictionary<int, int>();

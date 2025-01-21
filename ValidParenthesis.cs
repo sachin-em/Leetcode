@@ -1,3 +1,7 @@
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+// n is the length of s
+
 public class Solution {
     public bool IsValid(string s) {
         bool isValid = true;

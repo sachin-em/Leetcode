@@ -1,3 +1,8 @@
+// Time Complexity : O(m * n)
+// Space Complexity : O(1)
+// n is the number of strings in strs array
+// m is the length of smallest string in strs array
+
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
         string smallestStr = strs[0], prefix = string.Empty;
